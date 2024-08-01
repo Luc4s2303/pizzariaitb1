@@ -8,9 +8,9 @@ const Listagem = () => {
         pizza =>
         <li key={pizza.id} style={{listStyle: 'nome'}}>
            <img src={pizza.imagem}
-           alt={pizza.imagem}
+           alt={pizza.nome}
            style={{
-             width: "150",
+             width: "150px",
              heigth: "100px",
              borderRadius: "8px",
              margin: "0px",
@@ -23,7 +23,8 @@ const Listagem = () => {
         <>
 
         <h2 style={{textAlign: 'center'}}> 
-            Pizzas ITB</h2>
+            Pizzas ITB
+        </h2>
         <ul>
            <ItensLista />
         </ul>

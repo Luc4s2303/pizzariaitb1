@@ -6,7 +6,7 @@ import frango from "../assets/images/mussarela.png"
 
 const Pizzas = [
 
-    [
+    
         {
             "id": 1,
             "descricao": "Pizza Margherita com molho de tomate, mozzarella, e manjericão fresco",
@@ -56,7 +56,6 @@ const Pizzas = [
             "id": 10,
             "descricao": "Pizza de Chocolate com morangos frescos",
             "imagem":mussarela
-        }
+        },
     ]
-    
-]
+    export default Pizzas;
